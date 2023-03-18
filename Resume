@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/png" href="/images/favicon Small.png">
+        <link rel="shortcut icon" type="image/png" href="/images/favicon Small.png">
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+        <title>Resume</title>
+        <style>
+        body {background-color: #164773;}
+        .Header{display:flex;
+                border-style:solid;
+                background-color:#89D99D;
+                border-radius:20px;
+                color:white;
+                font-family:cursive;
+                padding-left: 650px;}
+        .ResumePhoto{flex:2;
+                    border-style:solid;
+                    border-radius:20px;
+                    background-color:#89D99D;
+                    color:white;
+                    padding:10px;
+                    padding-left: 430px;}
+        .footer{display:flex;
+                    border-style:solid;
+                    border-radius:20px;
+                    background-color:#89D99D;
+                    color:white;
+                    font-family:cursive;
+                    padding-left: 650px;}
+        ul{list-style-type:none;
+            border-style:solid;
+            display:inline-block;
+            padding:0px;
+            position:relative;
+            top:0px;
+            left:550px;
+            color:white;}
+        li a{width:100px;
+            background-color:black;
+            color:white;
+            display:block;
+            padding-top:20px;
+            padding-bottom:20px;
+            text-align:center;}
+        li a:hover{background-color:#164773;}
+        li a.active{background-color:#164773;}
+        li {float:left}
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="profilepage2.html">Home</a></li>
+        <li><a href="profilepage3.html">About</a></li>
+        <li><a class="active" href="Resume.html">Resume</a></li>
+    </ul>
+    <div class="favimg">
+        <img src="images/favicon Small.png" height="100px">
+    </div>
+    <div class="Header">
+        <h1>Resume</h1>
+    </div>
+    <div class="ResumePhoto">
+        <img src="Images/ResumePhoto.JPG" height="700px">
+    </div>
+</div>
+<div class="footer">
+    <h2>Andrew Whipp</h2>
+</div>
+</body>
+</html>
