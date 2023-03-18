@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href="/images/favicon Small.png">
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+        <title>About</title>
+        <style>
+            body {background-color: #164773;}
+            .Header{display:flex;
+                border-style:solid;
+                background-color:#89D99D;
+                border-radius:20px;
+                color:white;
+                font-family:cursive;
+                padding-left: 650px;}
+            .Biggerbox{display:flex;
+                        flex-direction:row;}
+            .Professional{flex:1;
+                        border-style:solid;
+                        border-radius:20px;
+                        background-color:#89D99D;
+                        color:white;
+                        font-family: 'Crimson Pro', serif;
+                        padding: 10px;}
+            .Personal{flex:3;
+                    border-style:solid;
+                    border-radius:20px;
+                    background-color:#89D99D;
+                    color:white;
+                    font-family: 'Crimson Pro', serif;
+                    padding: 10px;}
+            .gennaspic{flex:2;
+                        border-style:solid;
+                        border-radius:20px;
+                        background-color:#89D99D;
+                        color:white;
+                        padding:10px;}
+            .footer{display:flex;
+                    border-style:solid;
+                    border-radius:20px;
+                    background-color:#89D99D;
+                    color:white;
+                    font-family:cursive;
+                    padding-left: 600px;}
+            ul{list-style-type:none;
+                border-style:solid;
+                display:inline-block;
+                padding:0px;
+                position:relative;
+                top:0px;
+                left:550px;
+                color:white;}
+            li a{width:100px;
+                background-color:black;
+                color:white;
+                display:block;
+                padding-top:20px;
+                padding-bottom:20px;
+                text-align:center;}
+            li a:hover{background-color:#164773;}
+            li a.active{background-color:#164773;}
+            li {float:left}
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="profilepage2.html">Home</a></li>
+            <li><a class="active" href="profilepage3.html">About</a></li>
+            <li><a href="Resume.html">Resume</a></li>
+        </ul>
+        <div class="favimg">
+            <img src="images/favicon Small.png" height="100px">
+        </div>
+        <div class="Header">
+            <h1>About</h1>
+        </div>
+    <div class="Biggerbox">
+        <div class="Professional">
+            <h2>Professional Life</h2>
+            <p>I currently work at the Elon admissions office in the records processing department. <br>
+            Personally, I’ve received and processed about 500+ applications to the University <br>
+            by inputting grades manually from transcripts into the office's system. I’ve also <br>
+            been involved in managing mail in the department.</p>
+            <img src="images/Screen Shot 2023-02-10 at 12.20.11 AM.png" height="150px">
+            </div>
+        <div class="gennaspic">
+            <img src="images/IMG_9493.JPG" height="315px">
+        </div>
+        <div class="Personal">
+                <h2>Personal Life</h2>
+                <p>I grew up in a town called Pasadena, Maryland which is about 20 minutes north of <br>
+                Annapolis. I have a brother, who is 14, and a sister, who is 16.  I am a musician who<br>
+                plays 6 instruments, and I play in towns and cities like Catonsville, Baltimore, and<br>
+                Ellicott City. </p> 
+                <h2>Contact Information</h2>
+                <p>Phone number: (410)-507-7656 <br>
+                    Email: awhipp@elon.edu <br>
+                    Alt email: andrewwhipp@aol.com <br>
+                    Instagram: @andrew_whipp</p>
+            </div>
+    </div>
+        <div class="footer">
+            <h2>Andrew Whipp</h2>
+        </div>
+    </body>
+</html>
