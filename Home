@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/png" href="/images/favicon Small.png">
+        <link rel="shortcut icon" type="image/png" href="/images/favicon Small.png">
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+        <title>Andrew Whipp</title>
+        <style>
+            body {background-color: #164773;}
+            .Header{display:flex;
+                border-style:solid;
+                background-color:#89D99D;
+                border-radius:20px;
+                color:white;
+                font-family:cursive;
+                align-content:center;
+                padding-left: 600px;}
+            .bigbox{flex-direction:row;
+                    display:flex;}
+            .bio{flex:1;
+                border-style:solid;
+                border-radius:20px;
+                background-color:#89D99D;
+                color:white;
+                font-family: 'Crimson Pro', serif;
+                padding:10px}
+            .picture{flex:2;
+                    border-style:solid;
+                    border-radius:20px;
+                    background-color:#89D99D;
+                    color:white;
+                    padding:10px;}
+            .footer{display:flex;
+                    border-style:solid;
+                    border-radius:20px;
+                    background-color:#89D99D;
+                    color:white;
+                    font-family:cursive;
+                    padding:10px;
+                    padding-left: 550px;}
+            ul{list-style-type:none;
+                border-style:solid;
+                display:inline-block;
+                padding:0px;
+                position:relative;
+                top:0px;
+                left:550px;
+                color:white;}
+            li a{width:100px;
+                background-color:black;
+                color:white;
+                display:block;
+                padding-top:20px;
+                padding-bottom:20px;
+                text-align:center;}
+            li a:hover{background-color:#164773;}
+            li a.active{background-color:#164773;}
+            li {float:left}
+            
+        </style>
+    </head>
+
+    <body>
+        <ul>
+            <li><a class="active" href="profilepage2.html">Home</a></li>
+            <li><a href="profilepage3.html">About</a></li>
+            <li><a href="Resume.html">Resume</a></li>
+        </ul>
+        <div class="favimg">
+            <img src="images/favicon Small.png" height="100px">
+        </div>
+        <div class="Header">
+            <h1>Andrew Whipp</h1>
+        </div>
+    <div class="bigbox">
+        <div class="bio">
+            <h2>Bio</h2>
+            <p>Andrew Whipp is a Sophomore and a Strategic Communications major at Elon <br>
+            University. He is pursuing a minor in Music Technology as well, and is also the<br>
+            keyboardist and guitarist for a band named <a href="http://www.lisztomaniaband.com">Lisztomania</a>, which is based out of <br>
+            Baltimore, Maryland. He also graduated from Mount Saint Joseph High School.</p>
+        </div>
+        <div class="picture">
+            <img src="images/My project.JPG" height="250px">
+            </div>
+        </div>
+        <div class="footer">     
+            <audio controls>
+                 <source src="Images/MysteriousFinalFinal2448.mp3">
+                    Mrs. Mysterious </audio>
+        </div>
+        
+    </body>
+
+</html>
